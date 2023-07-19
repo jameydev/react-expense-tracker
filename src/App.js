@@ -1,8 +1,10 @@
+import ExpenseItem from './components/ExpenseItem'
+
 export default function App() {
   return (
     <div>
-      <h2>Hello, Girls!</h2>
-      <p>This is also visible</p>
+      <h2>Let's get started!</h2>
+      <ExpenseItem />
     </div>
   );
 }
