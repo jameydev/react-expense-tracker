@@ -1,9 +1,8 @@
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      
+    <div>
+      <h2>Hello, Girls!</h2>
+      <p>This is also visible</p>
     </div>
   );
 }
-
-export default App;
