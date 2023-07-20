@@ -1,4 +1,4 @@
-import ExpenseItemContainer from './components/ExpenseItemContainer';
+import ExpenseItemContainer from './components/expenses/ExpenseItemContainer';
 import { expenses } from './components/expenses';
 
 export default function App() {
