@@ -39,7 +39,9 @@ export default function ExpenseForm(props) {
         const expenseData = userInput;
         expenseData.enteredDate = new Date(userInput.enteredDate);
 
-        console.log(expenseData);
+        // console.log(expenseData);
+        props.onSaveExpenseData();
+
         setUserInput({
             enteredTitle: '',
             enteredAmount: '',
