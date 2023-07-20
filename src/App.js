@@ -1,4 +1,3 @@
-// import ExpenseItem from './components/ExpenseItem';
 import ExpenseItemContainer from './components/ExpenseItemContainer';
 import { expenses } from './components/expenses';
 

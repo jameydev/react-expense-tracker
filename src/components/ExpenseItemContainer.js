@@ -1,17 +1,19 @@
 import ExpenseItem from "./ExpenseItem";
+import Card from "./Card";
 import './Expenses.css';
 
 export default function ExpenseItemContainer(props) {
     return (
-        <div className="expenses">
-            {props.expenses.map((expense, i) => 
+        <Card className="expenses">
+            {props.expenses.map(expense => 
                 <ExpenseItem 
                     title={expense.title}
                     amount={expense.amount}
-                    date={expense.date} 
+                    date={expense.date}
+                    key={expense.id} 
                 />
             )}
-        </div>
+        </Card>
     );
     
 }
